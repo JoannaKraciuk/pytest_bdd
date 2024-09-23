@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56020086-baee-454a-9059-a50b6d483f31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Restful-booker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/database.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="56020086-baee-454a-9059-a50b6d483f31" name="Changes" comment="Add new project name" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,9 +160,28 @@
       <option name="presentableId" value="Default" />
       <updated>1727035677459</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new project name">
+      <option name="closed" value="true" />
+      <created>1727113614812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113614812</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add new project name">
+      <option name="closed" value="true" />
+      <created>1727113755557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727113755557</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add new project name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new project name" />
   </component>
 </project>
