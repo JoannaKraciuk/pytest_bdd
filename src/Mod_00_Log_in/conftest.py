@@ -28,6 +28,10 @@ def url():
     url = config_data['url']
     return url
 
+def dashboard_url():
+    site_url = config_data['dashboard_url']
+    return site_url
+
 @pytest.fixture()
 def valid_username():
     return config_data['username']

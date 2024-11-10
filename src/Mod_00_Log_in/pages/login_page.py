@@ -17,10 +17,7 @@ class LoginPage():
         self.user_name.blur()
 
     def input_password(self, password):
-        self.password.focus()
-        # self.password.wait_for(state="visible", timeout=5000)
         self.password.fill(password)
-
 
     def click_submit_button(self):
         self.submit.click()

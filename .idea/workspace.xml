@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="Utworzenie frameworka do testów Saucedemo.com">
-      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/tests/test_01.py" afterDir="false" />
+    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="Zmiana nazwy plików">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/stepdata_00_s_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/stepdata_00_s_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/data-init/data_00_s1_log_in.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/data-init/url.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/features/log_in.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/features/log_in.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/locators/Login_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/locators/Login_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_00_s1_log_in.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_00_Log_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_00_Log_in.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731215908262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Działający test logowania">
+      <option name="closed" value="true" />
+      <created>1731242684656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731242684656</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Zmiana nazwy plików">
+      <option name="closed" value="true" />
+      <created>1731242848947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731242848947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +126,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Utworzenie frameworka do testów Saucedemo.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utworzenie frameworka do testów Saucedemo.com" />
+    <MESSAGE value="Działający test logowania" />
+    <MESSAGE value="Zmiana nazwy plików" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana nazwy plików" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
