@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="przeniesienie dashboard_url do config_data">
+    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="rename project name">
+      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/features/fail_log_in.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_01_fail_log_in.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/locators/Login_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/locators/Login_locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/stepdata_00_s_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/stepdata_00_s_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731243777692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rename project name">
+      <option name="closed" value="true" />
+      <created>1731245457587</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731245457587</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +277,7 @@
     <MESSAGE value="Działający test logowania" />
     <MESSAGE value="Zmiana nazwy plików" />
     <MESSAGE value="przeniesienie dashboard_url do config_data" />
-    <option name="LAST_COMMIT_MESSAGE" value="przeniesienie dashboard_url do config_data" />
+    <MESSAGE value="rename project name" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename project name" />
   </component>
 </project>

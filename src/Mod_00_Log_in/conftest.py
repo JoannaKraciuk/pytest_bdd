@@ -43,3 +43,7 @@ def valid_password():
 @pytest.fixture
 def login_page(page):
     return LoginPage(page)
+
+@pytest.fixture()
+def error_message():
+    return config_data['error_message']

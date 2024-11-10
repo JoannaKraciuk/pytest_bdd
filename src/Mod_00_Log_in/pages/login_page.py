@@ -8,6 +8,7 @@ class LoginPage():
         self.user_name = self.page.locator(LoginLocators.USER_NAME_INPUT)
         self.password = self.page.locator(LoginLocators.PASSWORD_INPUT)
         self.submit = self.page.locator(LoginLocators.SUBMIT_BUTTON)
+        self.error_message = self.page.locator(LoginLocators.ERROR_MESSAGE)
 
     def open_login_page(self, url):
         self.page.goto(url)
@@ -25,3 +26,7 @@ class LoginPage():
     def check_new_url(self, expected_url: str):
         current_url = self.page.url
         return current_url == expected_url
+
+    def get_error_message(self):
+        error_message = self.error_message.is_visible()
+        return error_message
