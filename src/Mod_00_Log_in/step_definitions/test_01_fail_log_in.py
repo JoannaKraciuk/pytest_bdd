@@ -17,12 +17,12 @@ def get_login_page(login_page: LoginPage, url):
     login_page.open_login_page(url)
 
 
-@when(parsers.parse('I enter {user_name}'))
+@when(parsers.parse('I enter "{user_name}" in user_name input'))
 def input_username(login_page: LoginPage, user_name):
     login_page.input_user_name(user_name)
 
 
-@then(parsers.parse('I enter {password}'))
+@then(parsers.parse('I enter "{password}" in password input'))
 def input_password(login_page: LoginPage, password):
     login_page.input_password(password)
 

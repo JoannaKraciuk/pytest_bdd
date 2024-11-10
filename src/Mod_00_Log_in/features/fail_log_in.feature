@@ -3,13 +3,9 @@ Feature: Fail Login
   I want to see an error message when I enter incorrect login credentials
   So that I know the login attempt was unsuccessful
 
-  Scenario Outline: Fail login
+  Scenario: Fail login
     Given I am on the login page
-    When I enter <user_name>
-    Then I enter <password>
+    When I enter "locked_out_user" in user_name input
+    Then I enter "secret_sauce" in password input
     And I click the login button
     Then I should see the error message
-
-    Examples:
-      | user_name       | password    |
-      | locked_out_user | secret_sauce|
