@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Saucedemo_e2e.iml" filepath="$PROJECT_DIR$/.idea/Saucedemo_e2e.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Saucedemo_BDD.iml" filepath="$PROJECT_DIR$/.idea/Saucedemo_BDD.iml" />
     </modules>
   </component>
 </project>
