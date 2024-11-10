@@ -60,9 +60,9 @@ def verify_dashboard(login_page):
 
 ## 🌟 **Benefits**
 
-- ✅ **Readable**: Makes test cases easy to understand for both technical and non-technical stakeholders.  
-- ✅ **Reusable**: Test steps can be reused across multiple scenarios.  
-- ✅ **Flexible**: Leverage Pytest's rich ecosystem for advanced testing needs.  
+✅ **Readable**: Makes test cases easy to understand for both technical and non-technical stakeholders.  
+✅ **Reusable**: Test steps can be reused across multiple scenarios.  
+✅ **Flexible**: Leverage Pytest's rich ecosystem for advanced testing needs.  
 
 ---
 
