@@ -1,14 +1,9 @@
 import pytest
-from playwright.sync_api import Page, sync_playwright
+from playwright.sync_api import sync_playwright
 from Utils.stepdata_00_s_login import config_data
-
-
 from Mod_00_Log_in.pages.login_page import LoginPage
 
 BASIC_URL: str = None
-
-def pytest_configure(config):
-    global BASIC_URL
 
 @pytest.fixture(scope="session")
 def browser_config():
@@ -17,20 +12,29 @@ def browser_config():
 @pytest.fixture(scope="session")
 def browser_context(browser_config):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=browser_config['headless'])
+        browser = p.chromium.launch(headless=browser_config['headless'], slow_mo=1000)
         context = browser.new_context(viewport=browser_config['viewport'])
-        page = context.new_page()
-        yield page
+        yield context
         browser.close()
 
-@pytest.fixture(scope="session")
+@pytest.fixture
+def page(browser_context):
+    page = browser_context.new_page()
+    yield page
+    page.close()
+
+@pytest.fixture()
 def url():
-    return config_data['url']
+    url = config_data['url']
+    return url
 
-@pytest.fixture(scope="session")
-def valid_user():
-    return config_data['valid_user']
+@pytest.fixture()
+def valid_username():
+    return config_data['username']
 
+@pytest.fixture()
+def valid_password():
+    return config_data['password']
 
 @pytest.fixture
 def login_page(page):

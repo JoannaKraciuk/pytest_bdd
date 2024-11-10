@@ -1,9 +1,9 @@
 config_data = {
     'url': 'https://www.saucedemo.com/',
-    'username': 'test_user',
-    'password': 'secure_password',
+    'username': 'standard_user',
+    'password': 'secret_sauce',
     'browser': {
-        'headless': True,
+        'headless': False,
         'viewport': {'width': 1280, 'height': 720}
     }
 }
