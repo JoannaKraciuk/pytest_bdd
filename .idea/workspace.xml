@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="Add fail_log_in_test">
+    <list default="true" id="61a7fb79-37c3-49bb-a4d6-7936c408600f" name="Changes" comment="Change the transfer of variables to the test">
+      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/features/multi_invalid_user_log_in.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_02_multi_invalid_user_log_in.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/features/fail_log_in.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/features/fail_log_in.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_01_fail_log_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/step_definitions/test_01_fail_log_in.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/data-init/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mod_00_Log_in/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mod_00_Log_in/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/stepdata_00_s_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/stepdata_00_s_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731255820277</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change the transfer of variables to the test">
+      <option name="closed" value="true" />
+      <created>1731256409733</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731256409733</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +294,7 @@
     <MESSAGE value="przeniesienie dashboard_url do config_data" />
     <MESSAGE value="rename project name" />
     <MESSAGE value="Add fail_log_in_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fail_log_in_test" />
+    <MESSAGE value="Change the transfer of variables to the test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the transfer of variables to the test" />
   </component>
 </project>

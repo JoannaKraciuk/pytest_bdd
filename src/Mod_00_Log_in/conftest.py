@@ -12,7 +12,7 @@ def browser_config():
 @pytest.fixture(scope="session")
 def browser_context(browser_config):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=browser_config['headless'], slow_mo=1000)
+        browser = p.chromium.launch(headless=browser_config['headless'], slow_mo=500)
         context = browser.new_context(viewport=browser_config['viewport'])
         yield context
         browser.close()
@@ -47,3 +47,7 @@ def login_page(page):
 @pytest.fixture()
 def error_message():
     return config_data['error_message']
+
+@pytest.fixture()
+def error_message_1():
+    return config_data['error_message_1']
